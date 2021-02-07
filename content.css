@@ -95,6 +95,7 @@ body{
     padding: 8px 34px;
     display: inline-block;
     cursor: pointer;
+    outline: none;
     text-align: center;
 }
 
