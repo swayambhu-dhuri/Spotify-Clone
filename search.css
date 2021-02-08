@@ -15,12 +15,17 @@
     width:300px;
     margin-left: 20px;
     padding: 10px 12px;
-    text-align: center;
+    padding-left: 45px;
+    text-align: left;
     border-radius: 16px;
 }
 
 .searchbox input:focus{
     outline: none;
+}
+
+.searchbox input:focus .search{
+    display: none;
 }
 .search{
     position: absolute;
