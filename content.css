@@ -133,21 +133,20 @@ body{
     width:100%;
     height:300px;
     border-radius: 18px;
-    transform: scale(1.5, 1.5);
+    transform: scale(1.1, 1.1);
     animation-name: zoomin;
     animation-duration: 3s;
 }
 
 @keyframes zoomin{
     from {transform: scale(1, 1);}
-    to {transform: scale(1.5, 1.5);}
+    to {transform: scale(1.1, 1.1);}
 }
 
 .prev,
 .next{
     position: absolute;
     top: 30%;
-    /* transform: translate(0, -50px); */
     text-decoration: none;
     font-size: 60px;
     color : #fff;
